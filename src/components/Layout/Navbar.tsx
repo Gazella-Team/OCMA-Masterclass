@@ -66,7 +66,7 @@ export default function Navbar() {
                   to="omos"
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer bg-green-600 text-white p-[34px] py-[12px] rounded-full font-[500]"
+                  className="cursor-pointer bg-blue-500 text-white p-[34px] py-[12px] rounded-full font-[500]"
                   onClick={() => setMenuClicked(false)}
                 >
                   {currentPath === "/en" ? "Hear more" : "Hør mere"}

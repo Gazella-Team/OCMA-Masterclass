@@ -520,7 +520,7 @@ const ClassContentCard = (props: any) => {
   const [cardExpanded, setCardExpanded] = useState(false);
   return (
     <Reveal>
-      <div className="p-[20px] bg-green-600 text-blue-950 rounded-main">
+      <div className="p-[20px] bg-blue-500 text-blue-950 rounded-main">
         <div className="grid grid-cols-contentCard gap-[30px] trustbadgesTwo:grid-cols-1">
           <img
             alt="courseelement"
@@ -528,7 +528,7 @@ const ClassContentCard = (props: any) => {
             src={props.Obj.image}
           ></img>
           <div className="text-left flex flex-col justify-center gap-[10px]">
-            <p className="text-green-600 bg-white w-[100px] text-center p-[6px] rounded-[100px] font-[700] mb-[10px]">
+            <p className="text-blue-500 bg-white w-[100px] text-center p-[6px] rounded-[100px] font-[700] mb-[10px]">
               {currentPath === "/en" ? "Chapter " : "Kapitel "}
               {props.i}
             </p>

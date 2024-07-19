@@ -94,7 +94,7 @@ export default function FAQ() {
             {currentPath === "/en"
               ? "Get answers to all"
               : "Få svar på alle dine"}{" "}
-            <span className="text-green-600">
+            <span className="text-blue-500">
               {currentPath === "/en" ? "extra questions" : "ekstra spørgsmål"}
             </span>
           </h1>

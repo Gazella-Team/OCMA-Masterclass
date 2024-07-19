@@ -136,7 +136,7 @@ import {
               {currentPath === "/en"
                 ? "What does our Masterclass"
                 : " Hvad indeholder "}{" "}
-              <span className="text-green-500">
+              <span className="text-blue-500">
                 {currentPath === "/en" ? "include?" : "vores masterclass?"}
               </span>
             </h1>
@@ -178,7 +178,7 @@ import {
     const [contentCardExpanded, setContentCardExpanded] = useState(false);
     return (
       <Reveal>
-        <div className="text-left bg-green-600 p-[20px] border-[2px] rounded-main">
+        <div className="text-left bg-blue-500 p-[20px] border-[2px] rounded-main">
           <div className="flex items-center justify-between text-white">
             <div className="flex items-center gap-[20px] text-[18px] font-[700]">
               <div className="bg-white-500 p-[10px] rounded-[50px] text-white">

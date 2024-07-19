@@ -13,7 +13,7 @@ export default function Footer() {
               : "Step by step på hvordan du kan opnå et OCMA"}
           </h1>
           <Link
-            className="bg-green-600 text-white p-[30px] py-[10px] rounded-full text-glow"
+            className="bg-blue-500 text-white p-[30px] py-[10px] rounded-full text-glow"
             href={
               currentPath === "/en"
                 ? "https://calendly.com/ocmamasterclass-dk/30min?fbclid=IwAR39mtx2qWsMji5YUCmT7_dDDs4e7fCd_2oH_VBE_DVxq6F4Cc_CNaWwBU0&month=2024-03"

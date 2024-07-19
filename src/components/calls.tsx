@@ -105,7 +105,7 @@ export default function Calls() {
 const CallsCard = (props: any) => {
   return (
     <Reveal>
-      <div className="text-white bg-green-600 p-[20px] rounded-main border-[2px] border-green-700">
+      <div className="text-white bg-blue-500 p-[20px] rounded-main border-[2px] border-green-700">
         <div className="flex items-center">
           <Dot size={50} color="#ffff" />
           <h1 className="text-[18px] font-[700]">{props.Obj.callName}</h1>

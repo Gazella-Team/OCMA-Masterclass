@@ -16,7 +16,7 @@ export default function Articles() {
               {currentPath === "/en"
                 ? "Praised in the news: Our knowledge is based on"
                 : "Rost i nyhederne: Vores viden er baseret på"}{" "}
-              <span className="text-green-600">
+              <span className="text-blue-500">
                 {currentPath === "/en" ? "experience" : "erfaring"}
               </span>
             </h1>
@@ -32,7 +32,7 @@ export default function Articles() {
             <Reveal>
               <div className="flex gap-[10px] heroTwo:flex-col">
                 <Link
-                  className="text-glow bg-green-600 text-white p-[30px] py-[10px] rounded-full flex items-center gap-[10px]"
+                  className="text-glow bg-blue-500 text-white p-[30px] py-[10px] rounded-full flex items-center gap-[10px]"
                   href={
                     currentPath === "/en"
                       ? "https://calendly.com/ocmamasterclass-dk/optagelses-mode-clone  "
@@ -45,7 +45,7 @@ export default function Articles() {
                   </span>
                 </Link>
                 <Link
-                  className="text-glow bg-green-600 text-white p-[30px] py-[10px] rounded-full flex items-center gap-[10px]"
+                  className="text-glow bg-blue-500 text-white p-[30px] py-[10px] rounded-full flex items-center gap-[10px]"
                   href={
                     "https://jv.dk/haderslev/unge-ivaerksaettere-har-succes-med-at-lave-videoer-til-tiktok-har-droppet-fester-og-gaar-tidligt-i-seng-hver-aften?fbclid=IwAR1g4Cp6la6At-wmayf8PXfN-Lxmubv3kuVhmGbp1jx-PCV9tf-ToybLiJ0"
                   }
