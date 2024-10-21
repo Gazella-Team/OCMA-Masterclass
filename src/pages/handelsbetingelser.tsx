@@ -74,7 +74,7 @@ export default function Handelsbetingelser() {
 							sammenhæng. Det skal understreges, at OCMA
 							Masterclass ikke aktivt vurderer lovligheden af
 							markedsføringstiltag af nogen art, uanset i hvilket
-							omfang Ocma Masterclass har medvirket til
+							omfang Ocma Masterclass ha	r medvirket til
 							udformningen af disse. Elevers brud mod
 							markedsføringsloven kan OCMA Masterclass ikke stå
 							til ansvar for.{' '}
