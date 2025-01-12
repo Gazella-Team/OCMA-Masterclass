@@ -33,7 +33,6 @@ export default function Home() {
 				<WistiaVideo />
 			</div>
 			<FeaturesSlider />
-			/*
 			<Element name="testimonials">
 				<Testimonials />
 			</Element>
