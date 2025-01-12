@@ -26,7 +26,7 @@ export default function Home() {
 					'linear-gradient(338deg, rgba(3,2,32,1) 0%, rgba(30,12,119,1) 49%, rgba(8,5,82,1) 100%)',
 			}}
 		>
-			* * <Meta />
+			<Meta />
 			<Navbar />
 			<Hero />
 			<div className="w-[90%] mx-auto max-w-4xl">
